@@ -24,7 +24,7 @@ Based on the analysis, take targeted actions to increase profitable customer res
 4. Rename the columns so they follow the _PE8_ (snake case).
 5. Change effective to date column to datetime format.
 6. Check `NaN` values per column.
-7. Define a function that differentiates between continuous and discrete variables. **Hint**: A number of unique values might be useful. Store continuous data into a `continuous` variable and do the same for `discrete` and categorical.
+7. Store continuous data into a `continuous` variable and do the same for `discrete` and categorical.
 8. For the categorical data, check if there is some kind of text in a variable so we would need to clean it. **Hint**: Use the same method you used in step 7. Depending on the implementation, decide what to do with the variables you get.
 9. Get categorical features.
 10. What should we do with the `customer_id` column?
